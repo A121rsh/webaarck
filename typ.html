@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aarckweb | Designer's Place</title>
+	
+</head>
+<style type="text/css">
+	body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-image: url('2.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li a {
+	color: #fff;
+	font-weight: bold;
+	margin-left: 20px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #c1c1c1;
+}
+
+.hero-text {
+	color: #fff;
+	text-align: center;
+	animation: entrance-right 1s ease-out;
+}
+
+.hero-text h1 {
+	font-size: 4rem;
+	margin-bottom: 30px;
+}
+
+.hero-text h1 .typewriter {
+	border-right: 0.15em solid orange;
+	white-space: nowrap;
+	overflow: hidden;
+	letter-spacing: 0.15em;
+	animation: typing 3s steps(30, end) forwards;
+}
+
+.hero-text p {
+	font-size: 1.5rem;
+	margin-bottom: 50px;
+	max-width: 800px;
+}
+
+.btn {
+	background-color: #8bc34a;
+	color: #fff;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #689f38;
+}
+
+/* Entrance right animation */
+@keyframes entrance-right {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+/* Typewriter animation */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+</style>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="hero-text">
+			<h1><span class="typewriter">Aarckweb | Designer's Place</span></h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum augue eget massa pharetra consectetur. In non est vel est bibendum molestie. Sed eu vestibulum ipsum, eu dignissim enim. Nulla facilisi. Nam fermentum augue sit amet orci imperdiet, eget finibus mauris pretium.</p>
+			<a href="#" class="btn">Learn More</a>
+		</div>
+	</header>
+</body>
+</html>

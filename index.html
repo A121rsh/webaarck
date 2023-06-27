@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aarckweb | Home</title>
+</head>
+<style type="text/css">
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background-position: absolute;
+		background-color: black;
+	}
+	.logo:hover{
+
+		border: 2px solid #e06ce0 ;
+		border-radius: 0px;
+		border-top-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: hidden;
+		transition-duration: 2s;
+	}
+	.border{
+
+		border: 2px solid pink
+	}
+	.em{
+		height: 650px;
+		border: 1px solid black;
+		background:url("3.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-position: absoulute;		
+	}
+	a{
+		text-decoration: none;
+	}
+	.cl:hover{
+		color: darkolivegreen;
+		transition-duration: 2s;
+		text-decoration: underline overline ;
+		text-decoration-color: black;
+	}
+	.em:hover{
+background-image: url("4.jpg");
+transition-duration: 7s;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+	}
+	section{
+		height: 650px;
+		background-image: url("4.jpg");
+		border: 2px solid black;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-position: absoulute;	
+	}
+	section:hover{
+background-image: url("3.jpg");
+transition-duration: 10s;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+	}
+	.great:hover{
+		font-family: monospace;
+		font-size: 25px;
+		transition-duration: 1s;
+		border: 2px solid black;
+		outline: none;
+
+	}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin: 6px;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+}
+.image:hover img {
+  transform: scale(1.1);
+}
+.image:hover .overlay {
+  transform: translateY(0);
+}
+.typewriter {
+  background-color:transparent;
+  color: orange;
+  text-decoration:underline;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt {
+  overflow: hidden;
+  border-right: 0.10em solid #e06ce0;
+  white-space: nowrap;
+  font-size: 2rem;
+  animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:#e06ce0  }
+}
+.btn{
+	background-color: #e06ce0;
+	padding: 10px;
+	outline: none;
+	border: hidden;
+	border-radius: 7px;
+	font-size: 20px;
+}
+.btnn{
+	background-color: orange;
+	padding: 10px;
+	outline: none;
+	border: hidden;
+	border-radius: 7px;
+	font-size: 20px;
+}
+img{
+	border: 2px solid orange;
+	border-radius: 20px;
+	width: 300px;
+}
+/*pst*/
+body {
+  font-family: Arial, sans-serif;
+  background:url("3.jpg");
+  margin: 0;
+}
+header {
+  background-color:#e06ce0;
+  color:black;
+  text-align: center;
+  padding: 10px;
+}
+.post {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color:orange;
+  border: 1px dashed #dcdcdc;
+  box-shadow: 1px 1px 1px #dcdcdc;
+}
+.post:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 15px #e06ce0;
+  transition-duration: 1s;
+}
+.post-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("4.JPG");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.post-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:darkred;
+}
+.post-content p {
+  font-size: 16px;
+  color: black;
+}
+/*end pst*/
+/*footer */
+footer {
+  background-color: #e06ce0;
+  color: #fff;
+  padding: 20px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+.footer-links a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #e06ce0;
+}
+footer:hover {
+  background-image: linear-gradient(to bottom, orange,black);
+  transition: all 0.5s ease-in-out;
+}
+/*ends footer*/
+</style>
+<body>	
+<div class="em">
+	<nav>
+	<table width="100%" border="0px" color="blue">
+		<tr>
+			<td>
+				<table width="85%" align="center" valign="cener" border="0px" cellpadding="10px" >
+					<tr>
+						<td>
+							<font color="orange" size="6"  class="logo">Aarckweb &nbsp;</font>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><a href="#"><font color="#e06ce0" face="times new roman" class="great">HOME</font></a></td>
+						<td><a href="typ.html"><font color="#e06ce0" face="times new roman" class="great">ABOUT</font></a></td>
+						<td><a href="#"><font color="#e06ce0" face="times new roman" class="great">CONTACT</font></a></td>
+						<td><a href="Post.html"><font color="#e06ce0" face="times new roman" class="great">JOIN US.</font></a></td>
+						<td><a href="library.html"><font color="#e06ce0" face="times new roman" class="great">GALLARY</font></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</nav>
+<br>
+<br>
+<br>
+	<table width="100%" border="0px" height="500px">
+		<tr>
+			<td>
+				<table width="75%" border="0px" align="center" valign="center"  cellpadding="12px">
+					<tr>
+						<td><center>
+							<font color="orange" size="48px" class="cl"> Aarckweb </font>
+							 <font color="white" size="12px">|</font> 
+							<font size="12px" color="#e06ce0"> Designer's Place </font>
+							</center><pre>
+				<button class="btn">Learn More.</button> &nbsp; <button class="btnn">join now</button></pre>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+<section>
+	<br>
+	<br>
+	<br><div class="typewriter">
+  <h1>
+    <span class="txt">Learn with Excitements</span>
+  </h1>
+</div>
+	<br>
+	  <div class="gallery">
+  <div class="image">
+    <img src="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg">
+    <div class="overlay">
+      <h2>Learn HTML with Hand on practicle<br> click here to learn!</h2>
+    </div>
+  </div>
+  <div class="image">
+    <img src="https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8-970-80.jpg.webp ">
+    <div class="overlay">
+      <h2>Learn CSS with Hand on practicle<br> click here to learn!</h2>
+    </div>
+  </div>
+  <div class="image">
+    <img src="https://codeberryschool.com/blog/wp-content/uploads/2021/08/cover-1.png">
+    <div class="overlay">
+      <h2>Learn JAVA SCRIPT with Hand on practicle<br> click here to learn!</h2>
+    </div>
+  </div>
+</div>
+<hr>
+<br>
+
+<br><div class="typewriter">
+  <h1>
+    <span class="txt" >Scholling Science</span>
+  </h1>
+</div>
+<br>
+<hr>
+	  <div class="gallery">
+  <div class="image">
+    <img src="https://cache.careers360.mobi/media/presets/860X430/article_images/2021/2/8/NCERT-Solutions-for_Class_12-Bio.webp">
+    <div class="overlay">
+      <h2>Learn HTML with Hand on practicle<br> click here to learn!</h2>
+    </div>
+  </div>
+  <div class="image">
+    <img src="https://www.lanl.gov/org/ddste/aldps/physics/_assets/images/physics-homepage.png ">
+    <div class="overlay">
+      <h2>Learn CSS with Hand on practicle<br> click here to learn!</h2>
+    </div>
+  </div>
+  <div class="image">
+    <img src="https://www.nist.gov/sites/default/files/styles/2800_x_2800_limit/public/images/2019/05/23/welcomia_ss_periodictbl_552027100.jpg?itok=xc9amOKS">
+    <div class="overlay">
+      <h2>Learn JAVA SCRIPT with Hand on practicle<br> click here to learn!</h2>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+	<table border="0px" width="100%" border-color="white" cellpadding="8px">
+		<tr><td align="center"><font color="#e06ce0" size="12px" class="border">OUR PARTNERS</font></td></tr>
+		<tr>
+			<td>
+				<table border="0px" width="85%" align="center" >
+					<tr>
+					<td align="center">
+						<img src="img.jpg"></font></td>	
+					<td align="center"><font color="orange"> so we are going to launch our new companey for the devlopers<br> in this area we are going to launch this help us.</font></td>
+					</tr>
+					<tr><td align="center"><font color="#e06ce0">HOME<br>
+						so we are going to launch our new companey for the devlopers<br> in this area we are going to launch this help us.<br>
+						<br>
+						<br><br><br></font></td>
+					<td align="center"><img src="img.jpg" ></td>
+				</tr>
+				<tr>
+						<td align="center">
+						<img src="img.jpg"></font></td>
+					<td align="center"><font color="orange"> so we are going to launch our new companey for the devlopers<br> in this area we are going to launch this help us.</font></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</section>
+<section id="about">
+	<header>
+    <h1>Our updates that connect's you to us.</h1>
+  </header>
+  <main>
+    <div class="post">
+      <div class="post-image"></div>
+      <div class="post-content">
+        <h2>Post Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sem ultrices, consequat tellus ac, dignissim velit. Curabitur dapibus, lorem a tempus tempor, odio quam mollis nisl, nec dignissim sem ex quis ipsum. </p>
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-image"></div>
+      <div class="post-content">
+ <h2>Post Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sem ultrices, consequat tellus ac, dignissim velit. Curabitur dapibus, lorem a tempus tempor, odio quam mollis nisl, nec dignissim sem ex quis ipsum. </p>
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-image"></div>
+      <div class="post-content">
+        <h2>Post Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sem ultrices, consequat tellus ac, dignissim velit. Curabitur dapibus, lorem a tempus tempor, odio quam mollis nisl, nec dignissim sem ex quis ipsum. </p>
+      </div>
+    </div>
+  </main>
+</div>
+<footer>
+  <div class="footer-links">
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">Contact Us</a>
+  </div>
+<h1>this is yur footer page is you are unavailable for me that you should have to convience for me <br></h1>
+
+</footer>
+</body>
+</html>
